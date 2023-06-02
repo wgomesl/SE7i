@@ -1,0 +1,71 @@
+/* CSS da barra de navegação e também conteudo da pagina HOME */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+  }
+  
+  body {
+    min-height: 100%;
+    
+  }
+  
+  footer {
+    /* border: 2px solid red; */
+    bottom: 0;
+    width: 100%;
+  
+    display: block;
+  }
+  
+  .principal {
+    height: 700px;
+    display: block;
+  }
+  
+  .imagem-carousel {
+    width: 1000px;
+    height: 600px;
+  
+    /* border: 2px solid blue; */
+  }
+  
+  .bg-azul {
+    background-color: #696a74;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .logo {
+    width: 75px;
+    height: 75px;
+    
+  }
+  
+  /* footer{
+      border: 2px solid greenyellow;
+    }
+    footer .row{
+      border: 2px solid greenyellow;
+    } */
+  
+  
+  
+  
+  #area-carousel {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    /* border: 2px solid red; */
+  
+  }
+  
+  
+  .carousel-caption {
+  
+    background-color: rgba(0, 0, 0, 0.7);
+  }

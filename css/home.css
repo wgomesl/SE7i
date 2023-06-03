@@ -39,11 +39,26 @@
     text-decoration: none;
     color: white;
   }
+
+  .nav-text {
+    font-size: 1.2rem;
+  }
   
   .logo {
     width: 75px;
     height: 75px;
     
+  }
+
+  @media (max-width: 550px){
+    .logo {
+      width: 50px;
+      height: 50px;
+    }
+
+    .nav-text{
+      font-size: 12px;
+    }
   }
   
   /* footer{

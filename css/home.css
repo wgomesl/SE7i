@@ -12,11 +12,16 @@
   }
   
   footer {
-    /* border: 2px solid red; */
+    /*border: 2px solid red; */
     bottom: 0;
     width: 100%;
-  
     display: block;
+  }
+
+ 
+ footer p, .col{
+    font-weight: 500;
+    color:#000;
   }
   
   .principal {
@@ -32,16 +37,24 @@
   }
   
   .bg-azul {
-    background-color: #696a74;
+    background-color: rgb(49, 146, 238);
+  
   }
   
   .nav-link {
     text-decoration: none;
+    color:#000;
+    font-weight: 600;
+  }
+
+  .nav-link:hover{
     color: white;
   }
 
   .nav-text {
     font-size: 1.2rem;
+    font-weight: 600;
+    color:#000;
   }
   
   .logo {
@@ -57,7 +70,7 @@
     }
 
     .nav-text{
-      font-size: 12px;
+      font-size: 17px;
     }
   }
   
@@ -84,3 +97,119 @@
   
     background-color: rgba(0, 0, 0, 0.7);
   }
+
+  .whyschose {
+    background: #fff;
+      padding-top: 85px;
+      padding-bottom: 50px;
+  }
+
+  .black {
+    font-weight: 500;
+    color:#070500;
+  }
+
+  .choose_bg {
+    background: rgb(49, 146, 238);
+  }
+
+  .choose_bg .white_bg  {
+    background: #fff;
+    padding: 40px 20px;
+    box-shadow: #ddd 0px 0px 10px 3px;
+    margin-bottom: 5px;
+  }
+  .choose_bg .white_bg .for_box {
+    text-align: center;
+    padding: 1px ;
+  }
+  .choose_bg .white_bg .for_box i {display:block;}
+  .choose_bg .white_bg .for_box {
+    font-size: 26px;
+      line-height: 21px;
+    color: #070500;
+    padding: 25px 0px 15px 0px ;
+    display: inline-block; 
+  }
+
+  .choose_bg .white_bg .for_box p {
+    color: #0d0c0a;
+    font-size: 17px;
+    line-height: 28px;
+  }
+
+  .read-more  {
+  width: 190px;
+  margin: 0 auto;
+  background: #fff;
+  display: block;
+  border: rgb(49, 146, 238) solid 2px;
+  text-align: center;
+  padding: 10px 0px;
+  color: #0a0401 !important;
+  font-size: 20px;
+  margin-top: 40px;
+  text-decoration: none;
+  }
+  .read-more:hover {
+    background: rgb(49, 146, 238);
+    color: #0a0401;
+  }
+
+  title {
+    text-align:center;
+    padding-bottom: 60px;
+  
+  }
+
+  .title h2 {
+    font-size: 50px;
+    line-height: 55px;
+    color:rgb(49, 146, 238);
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+    position: relative;
+    padding-bottom: 8px;
+  }
+
+  .title h2:after {
+  position: relative;
+  top: 100%;
+  width: 110px;
+  height: 10px;
+  display: block;
+  margin: 0 auto;
+  background: #000;
+  }
+
+  .title span{
+    color:#070500;
+    font-size: 21px;
+    line-height: 21px;
+    margin-top: 20px;
+    }
+
+    .icon {
+      height: 80px;
+      margin-bottom: 25px;
+    }
+
+    .parallax {
+      margin-top: 70px;
+      margin-bottom: 70px;
+      background-image: url("https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      min-height: 60vh;
+    }
+
+    .parallax h3 {
+      margin: auto;
+      font-size: 30px;
+      color: white;
+    }

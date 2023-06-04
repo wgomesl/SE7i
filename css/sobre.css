@@ -25,22 +25,24 @@
     margin-top: 20px;
     display: flex;
     border: 2px solid grey;
+    
+  }
+
+  .titulo-bloco1{
+    margin-top: 50px;
+    text-align: center;
   }
 
   .comunidade {
-    
     height: 500px;
-    padding-top: 50px;
   }
 
   .texto-bloco1 {
     padding: 50px;
+    font-size: 1.2rem;
     
   }
 
-  .texto-bloco1 p {
-    font-size: 1.1rem;
-  }
 
   @media (max-width: 1000px){
     .comunidade{

@@ -21,7 +21,7 @@
  
  footer p, .col{
     font-weight: 500;
-    color:#000;
+    color:#ffffff;
   }
   
   .principal {
@@ -37,24 +37,24 @@
   }
   
   .bg-azul {
-    background-color: rgb(49, 146, 238);
+    background-color: #969799;
   
   }
   
   .nav-link {
     text-decoration: none;
-    color:#000;
-    font-weight: 600;
+    color:#ffffff;
+    font-weight: 500;
   }
 
   .nav-link:hover{
-    color: white;
+    color: rgb(0, 0, 0);
   }
 
   .nav-text {
     font-size: 1.2rem;
-    font-weight: 600;
-    color:#000;
+    font-weight: 500;
+    color:#ffffff;
   }
   
   .logo {
@@ -110,7 +110,7 @@
   }
 
   .choose_bg {
-    background: rgb(49, 146, 238);
+    background: #969799;
   }
 
   .choose_bg .white_bg  {
@@ -143,7 +143,7 @@
   margin: 0 auto;
   background: #fff;
   display: block;
-  border: rgb(49, 146, 238) solid 2px;
+  border: #969799 solid 2px;
   text-align: center;
   padding: 10px 0px;
   color: #0a0401 !important;
@@ -152,7 +152,7 @@
   text-decoration: none;
   }
   .read-more:hover {
-    background: rgb(49, 146, 238);
+    background: #969799;
     color: #0a0401;
   }
 
@@ -165,7 +165,7 @@
   .title h2 {
     font-size: 50px;
     line-height: 55px;
-    color:rgb(49, 146, 238);
+    color: #969799;
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 27px;
@@ -216,7 +216,7 @@
 
     .home-testimonial{
       margin-bottom: 300px;
-      background-color: rgb(49, 146, 238);
+      background-color: #969799;
       height: 440px;
     }
     .home-testimonial-bottom{

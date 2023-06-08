@@ -94,3 +94,20 @@
     }
   }
 
+  .title-container {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .title-container h1 {
+    margin-bottom: 10px;
+  }
+
+  .container-bloco1 {
+    font-size: 1.05rem;
+    display: flex;
+    align-items: center;
+  }
+
+

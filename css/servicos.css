@@ -1,0 +1,49 @@
+  
+footer {
+    /*border: 2px solid red; */
+    bottom: 0;
+    width: 100%;
+    display: block;
+  }
+
+ 
+ footer p, .col{
+    font-weight: 500;
+    color:#ffffff;
+  }
+
+.principal {
+    height: 700px;
+    display: block;
+  }
+
+  .bg-azul {
+    background-color: #969799;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: 500;
+  }
+
+  .nav-link:hover{
+    color: rgb(0, 0, 0);
+  }
+
+  .nav-text {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color:#ffffff;
+  }
+  
+  .logo {
+    width: 75px;
+    height: 75px;
+  }
+
+  .access-button{
+    width: 40%!important;
+    border-radius: 50px!important;
+    border: 5px solid #1516161f!important;
+  }

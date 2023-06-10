@@ -24,6 +24,10 @@
 
     <!-- Parallax -->
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
     
     <link rel="icon" href="/img/logo.jpg">
     <title>SE7i</title>
@@ -67,75 +71,65 @@
           </div>
         </div>
 
-        <!-- Formulário -->
-        <div class="container-fluid px-5 my-5">
-          <div class="row bg-grey justify-content-center">
-            <div class="col-xl-10">
-              <div class="card border-0 rounded-3 shadow-lg overflow-hidden">
-                <div class="card-body p-0">
-                  <div class="row g-0">
-                    <div class="col-sm-6 d-none d-sm-block map">
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2827966445716!2d-43.182153225384354!3d-22.902937837732225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f5c282ebb6d%3A0x5f73153bc86e01cf!2sR.%20Buenos%20Aires%2C%2090%20-%20Centro%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020070-022!5e0!3m2!1spt-BR!2sbr!4v1686245958414!5m2!1spt-BR!2sbr" hallowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="col-sm-6 p-4">
-                      <div class="text-center">
-                        <div class="h3 fw-light">Entre em contato conosco</div>
-                        <p class="mb-4 text-muted">Preencha o formulário abaixo</p>
-                      </div>
-        
-                      <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-        
-                        <!-- Name Input -->
-                        <div class="form-floating mb-3">
-                          <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
-                          <label for="name">Nome</label>
-                          <div class="invalid-feedback" data-sb-feedback="name:required">É necessário preencher seu nome.</div>
-                        </div>
-        
-                        <!-- Email Input -->
-                        <div class="form-floating mb-3">
-                          <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" />
-                          <label for="emailAddress">Email</label>
-                          <div class="invalid-feedback" data-sb-feedback="emailAddress:required">É necessário preencher seu email.</div>
-                          <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Este email não é válido.</div>
-                        </div>
-        
-                        <!-- Message Input -->
-                        <div class="form-floating mb-3">
-                          <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
-                          <label for="message">Mensagem</label>
-                          <div class="invalid-feedback" data-sb-feedback="message:required">É necessário preencher sua mensagem.</div>
-                        </div>
-        
-                        <!-- Submit success message -->
-                        <div class="d-none" id="submitSuccessMessage">
-                          <div class="text-center mb-3">
-                            <div class="fw-bolder">Formulário preenchido com sucesso!</div>
-                            <p>To activate this form, sign up at</p>
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                          </div>
-                        </div>
-        
-                        <!-- Submit error message -->
-                        <div class="d-none" id="submitErrorMessage">
-                          <div class="text-center text-danger mb-3">Error sending message!</div>
-                        </div>
-        
-                        <!-- Submit button -->
-                        <div class="d-grid">
-                          <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button>
-                        </div>
-                      </form>
-                      <!-- End of contact form -->
-        
-                    </div>
-                  </div>
-        
-                </div>
+<!-- Formulário -->
+<div class="container-fluid px-5 my-5">
+  <div class="row bg-grey justify-content-center">
+    <div class="col-xl-10">
+      <div class="card border-0 rounded-3 shadow-lg overflow-hidden">
+        <div class="card-body p-0">
+          <div class="row g-0">
+            <div class="col-sm-6 d-none d-sm-block map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2826621665217!2d-43.179578299999996!3d-22.902942799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f5c282ebb6d%3A0x5f73153bc86e01cf!2sR.%20Buenos%20Aires%2C%2090%20-%20Centro%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020070-022!5e0!3m2!1spt-BR!2sbr!4v1686422909323!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+            <div class="col-sm-6 p-4">
+              <div class="text-center">
+                <div class="h3 fw-light">Entre em contato conosco</div>
+                <p class="mb-4 text-muted">Preencha o formulário abaixo</p>
               </div>
+
+              <form id="contactForm" class="needs-validation" novalidate>
+
+                <!-- Name Input -->
+                <div class="form-floating mb-3">
+                  <input class="form-control" id="name" type="text" placeholder="Name" required/>
+                  <label for="name">Nome</label>
+                  <div class="invalid-feedback">Por favor, preencha o campo Nome.</div>
+                </div>
+
+                <!-- Email Input -->
+                <div class="form-floating mb-3">
+                  <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" required/>
+                  <label for="emailAddress">Email</label>
+                  <div class="invalid-feedback">Por favor, insira um endereço de email válido.</div>
+                </div>
+
+                <!-- Message Input -->
+                <div class="form-floating mb-3">
+                  <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" required></textarea>
+                  <label for="message">Mensagem</label>
+                  <div class="invalid-feedback">Por favor, digite sua mensagem.</div>
+                </div>
+
+                <!-- Submit button -->
+                <div class="d-grid">
+                  <button class="btn btn-primary btn-lg" id="submitButton" type="submit">Enviar</button>
+                </div>
+              </form>
             </div>
           </div>
+
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Alerta de sucesso -->
+<div id="successAlert" class="alert alert-success alert-dismissible fade show position-fixed top-0 start-50 translate-middle-x mt-3 d-none" role="alert">
+  O formulário foi enviado com sucesso!
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+
     <!-- Area do rodapé -->
   <footer class="py-4 mt-5 bg-azul">
     <div class="container text-light text-center">
@@ -170,7 +164,9 @@
       <small class="text-white-50">&copy;Copyright by SE7i. All Rights reserved</small>
     </div>
   </footer> 
+
   <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
   <script src="/js/libras.js"></script> 
+  <script src="/js/validacao-form.js"></script>
 </body>
 </html>

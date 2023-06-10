@@ -73,3 +73,25 @@ footer {
   border-radius: 50px!important;
   border: 5px solid #1516161f!important;
 }
+
+.is-invalid{
+  border: 2px solid red;
+}
+
+button{
+  background-color: #969799!important;
+  border-color: #969799!important;
+  transition-duration: 0.2s!important;
+}
+
+button:hover {
+  background-color: #818181!important;
+}
+
+button:active {
+  transform: translateY(3px)!important;
+}
+
+/*.custom-toast-width {
+  width: 200px;
+}/*

@@ -12,7 +12,7 @@ let titulo1sobre = {
 // 1º: Uma string começando com # para id ou . para classe html
 // 2º: o objeto de configuração
 let typed = new Typed("#texto", titulo1sobre);
-
+//////////////////////////////////////////////////////////////////////
 
 
 let titulo3sobre = {

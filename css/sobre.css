@@ -163,7 +163,7 @@
 
 .card{
   width: 340px;
-  height: 61vh;
+  height: 68vh;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -181,9 +181,7 @@
   height: 50.5vh;
 }
 
-.card{
-  height: 50%;
-}
+
 
 .card_data{
   padding: 1rem 0.9rem;
@@ -432,4 +430,10 @@ strong {
 
 .title-card{
   text-align: center;
+}
+
+.access-button{
+  width: 40%!important;
+  border-radius: 50px!important;
+  border: 5px solid #1516161f!important;
 }

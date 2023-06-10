@@ -295,3 +295,9 @@
       padding-top: 25px;
       
     }
+
+    .access-button{
+      width: 40%!important;
+      border-radius: 50px!important;
+      border: 5px solid #1516161f!important;
+    }

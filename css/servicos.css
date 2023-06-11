@@ -148,6 +148,7 @@ footer {
     font-size: 16px;
     line-height: 30px;
     font-weight: 300;
+    
 }
 
 .btn-link-1 {
@@ -156,7 +157,7 @@ footer {
     height: 50px;
     margin: 0 5px;
     padding: 16px 20px 0 20px;
-    background: #61C103;
+    background: #424242;
     font-size: 16px;
     font-weight: 300;
     line-height: 16px;
@@ -166,12 +167,17 @@ footer {
     border-radius: 4px;
 }
 
+.btn-link-1:hover {
+  background: #1d1d1d;
+  color: white;
+}
+
 .pricing-box-sign-up {
     padding: 25px 0;
 }
 
 .pricing-box-best .pricing-box-price {
-    background: #65CD00;
+    background: #424242;
     color: #fff;
 }
 
@@ -180,12 +186,12 @@ footer {
 }
 
 .pricing-box-best h3 {
-    background: #65CD00;
+    background: #424242;
     color: #fff;
 }
 
 .pricing-box-best h4 {
-    background: #61C103;
+    background: #333333;
     color: #fff;
 }
 
@@ -202,11 +208,14 @@ font-size: 45px;
   color: #777;
 }
 
-.underline
-{
+.underline{
     display: inline-block;
     width: 400px;
     height: 2px;
     margin-bottom: 20px;
-    background-color: #65CD00;
+    background-color: #161616;
+}
+
+#price {
+  font-family: Arial;
 }

@@ -437,3 +437,22 @@ strong {
   border-radius: 50px!important;
   border: 5px solid #1516161f!important;
 }
+
+.parallax {
+  margin-top: 90px;
+  margin-bottom: 70px;
+  background-image: url("https://mir-s3-cdn-cf.behance.net/projects/max_808/92d75e93304415.Y3JvcCwyNTYwLDIwMDMsMjIxLDA.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.parallax h3 {
+  margin: auto;
+  font-size: 30px;
+  color: white;
+}

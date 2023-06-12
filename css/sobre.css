@@ -491,3 +491,8 @@ strong {
   font-size: 30px;
   color: white;
 }
+
+.title-project{
+  width: 100%;
+  text-align: center;
+}

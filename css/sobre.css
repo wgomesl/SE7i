@@ -1,21 +1,41 @@
 
+footer {
+  /*border: 2px solid red; */
+  bottom: 0;
+  width: 100%;
+  display: block;
+}
 
+
+footer p, .col{
+  font-weight: 500;
+  color:#ffffff;
+}
+  
+  
   .bg-azul {
-    background-color: #696a74;
+    background-color: #969799;
   }
 
   .nav-link {
     text-decoration: none;
     color: white;
+    font-weight: 500;
+  }
+
+  .nav-link:hover{
+    color: rgb(0, 0, 0);
+  }
+
+  .nav-text {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color:#ffffff;
   }
 
   .logo {
     width: 75px;
     height: 75px;
-  }
-
-  .nav-text {
-    font-size: 1.2rem;
   }
 
   #bloco-1{
@@ -430,6 +450,21 @@ strong {
 
 .title-card{
   text-align: center;
+}
+
+.social-media{
+  text-align: center;
+}
+
+.social-media p{
+  margin-bottom: 0;
+}
+
+#social-media-icon{
+  color: rgb(39, 39, 39);
+  font-size: 25px;
+  padding-right: 5px;
+  padding-left: 2px;
 }
 
 .access-button{

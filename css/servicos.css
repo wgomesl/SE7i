@@ -219,3 +219,18 @@ font-size: 45px;
 #price {
   font-family: Arial;
 }
+
+.social-media{
+  text-align: center;
+}
+
+.social-media p{
+  margin-bottom: 0;
+}
+
+#social-media-icon{
+  color: rgb(39, 39, 39);
+  font-size: 25px;
+  padding-right: 5px;
+  padding-left: 2px;
+}

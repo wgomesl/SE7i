@@ -301,3 +301,18 @@
       border-radius: 50px!important;
       border: 5px solid #1516161f!important;
     }
+
+    .social-media{
+      text-align: center;
+    }
+    
+    .social-media p{
+      margin-bottom: 0;
+    }
+    
+    #social-media-icon{
+      color: rgb(39, 39, 39);
+      font-size: 25px;
+      padding-right: 5px;
+      padding-left: 2px;
+    }

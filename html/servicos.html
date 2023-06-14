@@ -70,27 +70,27 @@
           <h1>Potencialize sua infraestrutura com serviços de excelência</h1>
           <div class="row">
             <div class="col-md-4">
-              <div class="card">
+              <div class="card-services card">
                 <h5 class="card-title">Hardware</h5>
-                <img src="/img/hardware.jpg" class="card-img" alt="Imagem 1">
+                <img src="" class="card-img" alt="Imagem 1">
                 <div class="card-body">
                   <p class="card-text">Oferecemos suporte abrangente para infraestrutura de hardware, desde instalação até manutenção, garantindo o funcionamento contínuo de computadores, servidores e dispositivos periféricos.</p>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card">
+              <div class="card-services card">
                 <h5 class="card-title">Software</h5>
-                <img src="/img/software.jpg" class="card-img" alt="Imagem 2">
+                <img src="" class="card-img" alt="Imagem 2">
                 <div class="card-body">
                   <p class="card-text">Fornecemos soluções de software personalizadas, desde seleção e implementação até suporte contínuo, otimizando processos de negócios e impulsionando o crescimento das empresas.</p>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
-              <div class="card">
+              <div class="card-services card">
                 <h5 class="card-title">Redes</h5>
-                <img src="/img/redes.jpg" class="card-img" alt="Imagem 3">
+                <img src="" class="card-img" alt="Imagem 3">
                 <div class="card-body">
                   <p class="card-text">Nossa equipe especializada projeta, implementa e mantém redes confiáveis e seguras, com conectividade de alta velocidade e tecnologias avançadas como VPNs e redes sem fio.</p>
                 </div>
@@ -104,81 +104,263 @@
       <h3 id="parallax"></h3>
     </div>
 
-    <!-- Price Table -->
-
-<div class="container" id="price">
-	<div class="row">
-		<div class="col-md-12">
-			<div class="main_heading">
-				<h2>Confira nossos planos</h2>
-				<div  class="text-center"><span class="underline"></span></div>
-			</div>
-		</div><!-- End col-md-12 -->
-	</div><!-- End row -->
-
-	<div class="row">
-		<div class="col-md-4">
-			<div class="pricing-box">
-				<div class="pricing-box-price"><span>R$ </span><strong>12</strong><span> / mês</span></div>
-			    <h3>Básico</h3>
-			    <h4>Custo Benefício</h4>
-			    <div class="pricing-box-features">
-			    	<ul>
-			    		<li>--------------</li>
-			    		<li>--------------</li>
-			    		<li>--------------</li>
-			    		<li>--------------</li>
-			    		<li>-------------</li>
-			    	</ul>
-			    </div>
-			    <div class="pricing-box-sign-up">
-			    	<a class="btn btn-link-1 scroll-link" href="#top-content">Inscreva-se</a>
-			    </div>
-			</div>
-		</div><!-- End col-dm-4 -->
-		<div class="col-md-4 pricing-box-best">
-			<div class="pricing-box">
-            	<div class="pricing-box-price">
-            		<span>R$ </span><strong>35</strong><span> / mês</span>
-            	</div>
-                <h3>Intermediário</h3>
-                <h4>Melhor valor</h4>
-                <div class="pricing-box-features">
-                	<ul>
-                		<li>--------------</li>
-                		<li>--------------</li>
-                		<li>--------------</li>
-                		<li>--------------</li>
-                		<li>--------------</li>
-                	</ul>
-                </div>
-                <div class="pricing-box-sign-up">
-                	<a class="btn btn-link-1 scroll-link" href="#top-content">Inscreva-se</a>
-                </div>
+    <div class="container mt-5">
+      <!-- Botões/Cards para selecionar o tipo de serviço -->
+      <div class="row mt-4">
+        <div class="col-md-4 mb-4">
+          <div class="card-form card">
+            <div class="card-body">
+              <h5 class="card-title">Hardware</h5>
+              <button class="btn btn-primary" onclick="mostrarConteudo('hardware')">Selecionar</button>
             </div>
-		</div><!-- End col-dm-4 -->
-		<div class="col-md-4">
-			<div class="pricing-box">
-            	<div class="pricing-box-price"><span>R$ </span><strong>75</strong><span> / mês</span></div>
-                <h3>Avançado</h3>
-                <h4>PACOTE COMPLETO</h4>
-                <div class="pricing-box-features">
-                	<ul>
-                		<li>--------------</li>
-                		<li>--------------</li>
-                		<li>--------------</li>
-                		<li>--------------</li>
-                		<li>--------------</li>
-                	</ul>
-                </div>
-                <div class="pricing-box-sign-up">
-                	<a class="btn btn-link-1 scroll-link" href="#top-content">Inscreva-se</a>
-                </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card-form card">
+            <div class="card-body">
+              <h5 class="card-title">Software</h5>
+              <button class="btn btn-primary" onclick="mostrarConteudo('software')">Selecionar</button>
             </div>
-		</div>
-	</div>
-</div>
-  
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card-form card">
+            <div class="card-body">
+              <h5 class="card-title">Redes</h5>
+              <button class="btn btn-primary" onclick="mostrarConteudo('redes')">Selecionar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Conteúdo do tipo de serviço selecionado -->
+      <div id="conteudo-hardware" class="conteudo" style="display: none;">
+        <div class="row">
+          <!-- Plano Básico de Hardware -->
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h4 class="card-title">Plano Básico</h4>
+                <ul>
+                  <li>
+                    <strong>Placa-mãe:</strong> ASRock / H470M-HVS - R$ 420,00
+                  </li>
+                  <li>
+                    <strong>Processador:</strong> Intel / Core i3-10100 - R$ 642,90
+                  </li>
+                  <li>
+                    <strong>Cooler:</strong> Intel / E97378-003 - R$ 15,00
+                  </li>
+                  <li>
+                    <strong>Memória:</strong> 3D Connexion / DDR4 8GB 2400Mhz - R$ 80,00
+                  </li>
+                  <li>
+                    <strong>Armazenamento:</strong> Seagate / STEA1000400 - R$ 280,00
+                  </li>
+                  <li>
+                    <strong>Fonte:</strong> Brazil PC / BPC-325EZ - R$ 113,00
+                  </li>
+                  <li>
+                    <strong>Teclado:</strong> Hoopson / TPC-042-A - R$ 70,00
+                  </li>
+                  <li>
+                    <strong>Monitor:</strong> Positivo / E2023PWDB - R$ 264,95
+                  </li>
+                  <li>
+                    <strong>Gabinete:</strong> Hayom / GB1720 - R$ 67,90
+                  </li>
+                  <li>
+                    <strong>Mouse:</strong> Logitech / M90 (910-004053) - R$ 25,50
+                  </li>
+                  <li>
+                    <strong>Filtro de Linha:</strong> Force Line / 560 - Filtro de Linha - R$ 40,00
+                  </li>
+                  <li>
+                    <strong>Projetor:</strong> BenQ MX550 XGA - R$ 3.897,73
+                  </li>
+                  <li>
+                    <strong>Impressora:</strong> Multifuncional HP Deskjet Ink Advantage 2774 - R$ 314,10
+                  </li>
+                  <li>
+                    <strong>Lousa Digital:</strong> Unionboard 82'' polegadas - R$ 4.790,00
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Plano Intermediário de Hardware -->
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h4 class="card-title">Plano Intermediário</h4>
+                <ul>
+                  <li>
+                    <strong>Placa-mãe:</strong> Asus / TUF Gaming B460M-Plus - R$ 619,70
+                  </li>
+                  <li>
+                    <strong>Processador:</strong> Intel / Core i5-10400F - R$ 528,00
+                  </li>
+                  <li>
+                    <strong>Cooler:</strong> Intel / K69237-001 - R$ 129,99
+                  </li>
+                  <li>
+                    <strong>Placa de Vídeo:</strong> Asus / DUAL-RX5600XT-T6G-EVO - R$ 1.195,00
+                  </li>
+                  <li>
+                    <strong>Memória:</strong> 3D Connexion / DDR4 8GB 2400Mhz (2x) - R$ 160,00
+                  </li>
+                  <li>
+                    <strong>Armazenamento:</strong> Acos / AS-1TB - R$ 209,70
+                  </li>
+                  <li>
+                    <strong>Fonte:</strong> Bluecase / BLU600RMBCASE (BLU600R-B) - R$ 274,00
+                  </li>
+                  <li>
+                    <strong>Teclado:</strong> Hoopson / TPC-042-A - R$ 70,00
+                  </li>
+                  <li>
+                    <strong>Mouse:</strong> Positivo / E2023PWDB - R$ 264,95
+                  </li>
+                  <li>
+                    <strong>Gabinete:</strong> Hayom / GB1720 - R$ 67,90
+                  </li>
+                  <li>
+                    <strong>Monitor:</strong> Logitech / M90 (910-004053) - R$ 25,50
+                  </li>
+                  <li>
+                    <strong>Estabilizador:</strong> SMS / Revolution Speedy Bivolt 300VA - R$ 180,00
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Plano Avançado de Hardware -->
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h4 class="card-title">Plano Avançado</h4>
+                <ul>
+                  <li>
+                    <strong>Placa-mãe:</strong> GigaByte / H510M S2H V2 (rev. 1.0) - R$ 468,10
+                  </li>
+                  <li>
+                    <strong>Processador:</strong> Intel / Core i7-10700F - R$ 1.170,00
+                  </li>
+                  <li>
+                    <strong>Cooler:</strong> Intel / K69237-001 - R$ 129,99
+                  </li>
+                  <li>
+                    <strong>Placa de Vídeo:</strong> GigaByte / GV-N2060D6-6GD - R$ 1.600,00
+                  </li>
+                  <li>
+                    <strong>Memória:</strong> 3D Connexion / DDR4 16GB 2400Mhz (2x) - R$ 317,50
+                  </li>
+                  <li>
+                    <strong>Armazenamento:</strong> Acos / AS-1TB - R$ 209,70
+                  </li>
+                  <li>
+                    <strong>Fonte:</strong> Corsair / CV550 - R$ 425,00
+                  </li>
+                  <li>
+                    <strong>Teclado:</strong> Hoopson / TPC-042-A - R$ 70,00
+                  </li>
+                  <li>
+                    <strong>Mouse:</strong> Positivo / E2023PWDB - R$ 264,95
+                  </li>
+                  <li>
+                    <strong>Gabinete:</strong> Hayom / GB1720 - R$ 67,90
+                  </li>
+                  <li>
+                    <strong>Monitor:</strong> Logitech / M90 (910-004053) - R$ 25,50
+                  </li>
+                  <li>
+                    <strong>No Break:</strong> Ragtech / Easy Pro 1200 STD TI - R$ 699,99
+                  </li>
+                  <li>
+                    <strong>Projetor:</strong> BenQ MX550 XGA - R$ 3.897,73
+                  </li>
+                  <li>
+                    <strong>Impressora:</strong> Multifuncional HP Deskjet Ink Advantage 2774 - R$ 314,10
+                  </li>
+                  <li>
+                    <strong>Lousa Digital:</strong> Unionboard 82'' polegadas - R$ 4.790,00
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div id="conteudo-software" class="conteudo" style="display: none;">
+        <div class="row">
+          <!-- Plano Básico de Software -->
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h4 class="card-title">Plano Básico</h4>
+                <ul>
+                  <li>
+                    <strong>Sistema Operacional:</strong> Linux Ubuntu (gratuito)
+                  </li>
+                  <li>
+                    <strong>Antivírus:</strong> Avast Free Antivírus (versão gratuita)
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Plano Intermediário de Software -->
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h4 class="card-title">Plano Intermediário</h4>
+                <ul>
+                  <li>
+                    <strong>Sistema Operacional:</strong> Windows 11 - R$ 1.099,00
+                  </li>
+                  <li>
+                    <strong>Antivírus:</strong> Kaspersky Standard - R$ 50,90
+                  </li>
+                  <li>
+                    <strong>Suite de Produtividade:</strong> Microsoft 365 Business Standard - R$ 80,00
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Plano Avançado de Software -->
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h4 class="card-title">Plano Avançado</h4>
+                <ul>
+                  <li>
+                    <strong>Antivírus:</strong> Kaspersky Endpoint Security Cloud Pro (24 dispositivos) - R$ 4.440,00
+                  </li>
+                  <li>
+                    <strong>Sistema Operacional:</strong> Dual boot (Windows 11 e Linux Ubuntu)
+                  </li>
+                  <li>
+                    <strong>Suite de Produtividade:</strong> Microsoft 365 Business Premium - R$ 140,80
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div id="conteudo-redes" class="conteudo" style="display: none;">
+        <!-- Planos básicos, intermediários e avançados de redes -->
+        <!-- ... -->
+      </div>
+    </div>
+    
 
     <!-- Area do rodapé -->
     <footer class="py-4 mt-5 bg-azul">
@@ -214,6 +396,7 @@
       </div>
     </footer> 
 
+  <script src="/js/services.js"></script>
   <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
   <script src="/js/libras.js"></script> 
 </body>

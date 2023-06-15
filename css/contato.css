@@ -18,7 +18,7 @@ footer {
   }
 
   .bg-azul {
-    background-color: #969799;
+    background-color: #048AFF;
   }
 
   .nav-link {
@@ -63,7 +63,7 @@ footer {
 
 .bg-grey{
   background: #282829;
-  background: linear-gradient(to left, rgb(102, 100, 100), rgb(204, 204, 204));
+  background: linear-gradient(to left, rgb(109, 12, 109), rgb(219, 20, 203));
   padding: 50px;
   
 }
@@ -84,13 +84,13 @@ footer {
 }
 
 button{
-  background-color: #969799!important;
-  border-color: #969799!important;
+  background-color: #7B0383!important;
+  border-color: #7B0383!important;
   transition-duration: 0.2s!important;
 }
 
 button:hover {
-  background-color: #818181!important;
+  background-color: #4e0753!important;
 }
 
 button:active {

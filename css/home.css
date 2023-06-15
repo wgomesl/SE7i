@@ -37,7 +37,7 @@
   }
   
   .bg-azul {
-    background-color: #969799;
+    background-color: #048AFF;
   
   }
   
@@ -111,7 +111,7 @@
   }
 
   .choose_bg {
-    background: #969799;
+    background: #7B0383;
   }
 
   .choose_bg .white_bg  {
@@ -144,7 +144,7 @@
   margin: 0 auto;
   background: #fff;
   display: block;
-  border: #969799 solid 2px;
+  border: #7B0383 solid 2px;
   text-align: center;
   padding: 10px 0px;
   color: #0a0401 !important;
@@ -153,7 +153,7 @@
   text-decoration: none;
   }
   .read-more:hover {
-    background: #969799;
+    background: #7B0383;
     color: #0a0401;
   }
 
@@ -166,7 +166,7 @@
   .title h2 {
     font-size: 50px;
     line-height: 55px;
-    color: #969799;
+    color: #7B0383;
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 27px;
@@ -217,7 +217,7 @@
 
     .home-testimonial{
       margin-bottom: 300px;
-      background-color: #969799;
+      background-color: #7B0383;
       height: 440px;
     }
     .home-testimonial-bottom{

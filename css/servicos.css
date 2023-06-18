@@ -77,18 +77,6 @@ footer {
     padding: 20px;
   }
 
-  .parallax {
-    margin-top: 90px;
-    background-image: url("/img/repair.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    min-height: 40vh;
-  }
-
   .parallax h3 {
     margin: auto;
     font-size: 30px;
@@ -252,7 +240,7 @@ body {
   padding: 40px;
   background: linear-gradient(to left, #048AFF, #ea04ff);
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(255, 255, 255, 0.4) 0px 2px 4px, rgba(255, 255, 255, 0.3) 0px 7px 13px -3px, rgba(255, 255, 255, 0.2) 0px -3px 0px inset;
 }
 
 h2 {
@@ -316,3 +304,10 @@ h2 {
   color: rgb(255, 255, 255);
 }
 
+.body-form{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  background-image: url("/img/background.gif");
+}

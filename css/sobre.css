@@ -35,6 +35,7 @@ footer p, .col{
   .logo {
     width: 75px;
     height: 75px;
+    border-radius: 75px;
   }
 
   #bloco-1{

@@ -51,12 +51,13 @@ footer {
     margin-top: 20px;
     text-align: center;
     padding-top: 120px;
-    color: #777;
+    color: black;
   }
 
   .card-services {
     height: 94%;
     margin-top: 30px;
+    margin-left: 30px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   }
 

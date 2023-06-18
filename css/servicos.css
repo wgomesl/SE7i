@@ -249,13 +249,13 @@ body {
   max-width: 700px;
   margin: 0 auto;
   padding: 40px;
-  background-color: #ffffff;
+  background: linear-gradient(to left, #048AFF, #ea04ff);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-  color: #6c5ce7;
+  color: #ffffff;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -278,7 +278,7 @@ h2 {
 }
 
 .btn-primary {
-  background-color: #6c5ce7;
+  background-color: #161616;
   border: none;
   border-radius: 6px;
   padding: 12px 20px;
@@ -293,11 +293,11 @@ h2 {
 }
 
 .btn-primary:hover {
-  background-color: #593de8;
+  background-color: #000000;
 }
 
 .form-check-label {
-  color: #777;
+  color: #ffffff;
   margin-bottom: 10px;
 }
 
@@ -312,4 +312,6 @@ h2 {
 
 .form-group{
   padding-bottom: 5px;
+  color: rgb(255, 255, 255);
 }
+

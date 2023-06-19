@@ -218,7 +218,7 @@
 
     .home-testimonial{
       margin-bottom: 300px;
-      background-color: #c706c7;
+      background: linear-gradient(to left, #c706c7, #048AFF);
       height: 440px;
     }
     .home-testimonial-bottom{

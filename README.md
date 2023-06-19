@@ -28,12 +28,12 @@ Por último, têm uma seção para apresentar toda a equipe que realizou TCC, e 
 > Neste mesmo formulário há um efeito que ao clicar no botão, é exibido um alerta de sucesso ao enviar.
 
 ## Tecnologias e ferramentas utilizadas
-- HTML5: linguagem de marcação de texto utilizada para estruturar o site;
-- CSS3: linguagem utilizada para estilização de elementos;
-- Bootstrap: biblioteca utilizada para facilitar na construção do site, como: formulários, cards, barra de navegação, rodapé, etc;
-- JQuery: biblioteca javascript que simplifica a sintaxe e disponibiliza outros recursos;
-- Javascript: linguagem de programação utilizada para dar interatividade ao site;
-  - OwlCarousel: plugin para criar carousel.
-  - Typed.js: plugin para adicionar animação aos textos.
-  - VLibras: plugin de acessibilidade em libras.
-  - Font Awesome: biblioteca contendo ícones e emojis.
+- <b>HTML5:</b> linguagem de marcação de texto utilizada para estruturar o site;
+- <b>CSS3:</b> linguagem utilizada para estilização de elementos;
+- <b>Bootstrap:</b> biblioteca utilizada para facilitar na construção do site, como: formulários, cards, barra de navegação, rodapé, etc;
+- <b>JQuery:</b> biblioteca javascript que simplifica a sintaxe e disponibiliza outros recursos;
+- <b>Javascript:</b> linguagem de programação utilizada para dar interatividade ao site;
+  - <b>OwlCarousel:</b> plugin para criar carousel.
+  - <b>Typed.js:</b> plugin para adicionar animação aos textos.
+  - <b>VLibras:</b> plugin de acessibilidade em libras.
+  - <b>Font Awesome:</b> biblioteca contendo ícones e emojis.

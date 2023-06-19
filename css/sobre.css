@@ -147,13 +147,13 @@ footer p, .col{
 
 .pcp_box {
     text-align: center;
-    background-color: #aa20b4;
+    background: linear-gradient(to left, #c706c7, #048AFF);
     border-radius: 20px;
     padding: 30px 20px;
     margin-left: 15px;
     margin-bottom: 30px;
     height: 330px;
-    box-shadow: 20px 10px #410546;
+    box-shadow: 20px 10px #111111;
 }
 
 .pcp_box h4 {

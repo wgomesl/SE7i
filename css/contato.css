@@ -64,7 +64,7 @@ footer {
 
 .bg-grey{
   background: #282829;
-  background: linear-gradient(to left, rgb(109, 12, 109), rgb(219, 20, 203));
+  background: linear-gradient(to left, #c706c7, #048AFF);
   padding: 50px;
   
 }
@@ -85,13 +85,13 @@ footer {
 }
 
 button{
-  background-color: #7B0383!important;
-  border-color: #7B0383!important;
+  background-color: #202020!important;
+  border-color: #202020!important;
   transition-duration: 0.2s!important;
 }
 
 button:hover {
-  background-color: #4e0753!important;
+  background-color: #000000!important;
 }
 
 button:active {

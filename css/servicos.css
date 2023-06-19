@@ -314,3 +314,11 @@ h2 {
 .servicos{
   margin-bottom: 15px;
 }
+
+.toast {
+  min-height: 80px;
+}
+
+.toast-body {
+  padding: 10px;
+}

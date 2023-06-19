@@ -23,6 +23,10 @@
 
     <!-- Parallax -->
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
+    <!-- Toastr -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
     
     <link rel="icon" href="/img/logo.png">
     <title>Serviços | SE7I</title>
@@ -66,6 +70,7 @@
           </div>
         </div>
 
+        <!-- Serviços -->
         <section class="container">
           <h1>Potencialize sua infraestrutura com serviços de excelência</h1>
           <div class="row">
@@ -99,61 +104,68 @@
           </div>
         </section>
 
-        <div class="body-form">
-          <div class="container-form mt-5">
-              <h2>Solicite seu orçamento</h2>
-              <form>
-                  <div class="form-group">
-                      <label for="nome">Nome</label>
-                      <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
-                  </div>
-                  <div class="form-group">
-                      <label for="email">Email</label>
-                      <input type="email" class="form-control" id="email" placeholder="Digite seu email">
-                  </div>
-                  <div class="form-group">
-                      <label for="telefone">Telefone</label>
-                      <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone">
-                  </div>
-                  <div class="form-group">
-                      <label for="empresa">Empresa</label>
-                      <input type="text" class="form-control" id="empresa" placeholder="Digite o nome da empresa">
-                  </div>
-                  <div class="form-group">
-                      <label class="servicos" for="servicos">Escolha o serviço</label>
-                      <div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="hardware" id="servico-hardware">
-                          <label class="form-check-label" for="servico-hardware">
-                              Hardware
-                          </label>
-                      </div>
-                      <div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="software" id="servico-software">
-                          <label class="form-check-label" for="servico-software">
-                              Software
-                          </label>
-                      </div>
-                      <div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="redes" id="servico-redes">
-                          <label class="form-check-label" for="servico-redes">
-                              Redes
-                          </label>
-                      </div>
-                  </div>
-                  <div class="form-group">
-                      <label for="comentarios">Informações adicionais</label>
-                      <textarea class="form-control" id="comentarios" rows="4" placeholder="Digite quaisquer comentários adicionais"></textarea>
-                  </div>
-                  <div class="form-group form-check">
-                      <input type="checkbox" class="form-check-input" id="termos">
-                      <label class="form-check-label" for="termos">Sim, concordo com as políticas de privacidade e termos de condições</label>
-                  </div>
-                  <div class="center-button">
-                      <button type="submit" class="btn btn-primary">Solicitar Orçamento</button>
-                  </div>
-              </form>
-          </div>
+<!-- Formulário de orçamento -->
+<div class="body-form">
+  <div class="container-form mt-5">
+    <h2>Solicite seu orçamento</h2>
+    <form id="form-orcamento" class="needs-validation" novalidate>
+      <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+        <div class="invalid-feedback">Digite seu nome.</div>
       </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Informe seu email" required>
+        <div class="invalid-feedback">Informe um endereço de email válido.</div>
+      </div>
+      <div class="form-group">
+        <label for="telefone">Telefone</label>
+        <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone" required>
+        <div class="invalid-feedback">Digite seu telefone.</div>
+      </div>
+      <div class="form-group">
+        <label for="empresa">Empresa</label>
+        <input type="text" class="form-control" id="empresa" placeholder="Digite o nome da empresa" required>
+        <div class="invalid-feedback">Digite o nome da empresa.</div>
+      </div>
+      <div class="form-group">
+        <label class="servicos">Escolha o serviço desejado</label>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="hardware" id="servico-hardware" required>
+          <label class="form-check-label" for="servico-hardware">
+            Hardware
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="software" id="servico-software" required>
+          <label class="form-check-label" for="servico-software">
+            Software
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="redes" id="servico-redes" required>
+          <label class="form-check-label" for="servico-redes">
+            Redes
+          </label>
+        </div>
+      <div class="form-group">
+        <label for="comentarios">Informações adicionais</label>
+        <textarea class="form-control" id="comentarios" rows="4" placeholder="Digite quaisquer comentários adicionais"></textarea>
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="termos" required>
+        <label class="form-check-label" for="termos">Sim, concordo com as políticas de privacidade e termos de condições</label>
+        <div class="invalid-feedback">Você deve concordar com os termos e condições.</div>
+      </div>
+      <div class="center-button">
+        <button type="submit" class="btn btn-primary">Solicitar Orçamento</button>
+      </div>
+    </form>
+  </div>
+</div>
+</div>
+      
     
 
     <!-- Area do rodapé -->
@@ -190,8 +202,9 @@
       </div>
     </footer> 
 
-  <script src="/js/services.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.6/jquery.inputmask.min.js"></script>
   <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
   <script src="/js/libras.js"></script> 
+  <script src="/js/services.js"></script>
 </body>
 </html>

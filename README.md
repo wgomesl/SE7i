@@ -2,7 +2,7 @@
 Projeto referente a empresa SE7I construída durante o TCC de suporte em TI.
 
 ## Link para acessar o site
-> se-7i.vercel.app
+> https://se-7i.vercel.app
 
 ### Página principal
 >Na página inicial têm de destaque um carousel de imagens, com um texto chamativo para nossos serviços.</br>
@@ -28,12 +28,12 @@ Por último, têm uma seção para apresentar toda a equipe que realizou TCC, e 
 > Neste mesmo formulário há um efeito que ao clicar no botão, é exibido um alerta de sucesso ao enviar.
 
 ## Tecnologias e ferramentas utilizadas
-- HTML5;
-- CSS3;
-- Bootstrap;
-- JQuery;
-- Javascript;
-  - OwlCarousel.
-  - Typed.js.
-  - VLibras.
-  - Font Awesome.
+- HTML5: linguagem de marcação de texto utilizada para estruturar o site;
+- CSS3: linguagem utilizada para estilização de elementos;
+- Bootstrap: biblioteca utilizada para facilitar na construção do site, como: formulários, cards, barra de navegação, rodapé, etc;
+- JQuery: biblioteca javascript que simplifica a sintaxe e disponibiliza outros recursos;
+- Javascript: linguagem de programação utilizada para dar interatividade ao site;
+  - OwlCarousel: plugin para criar carousel.
+  - Typed.js: plugin para adicionar animação aos textos.
+  - VLibras: plugin de acessibilidade em libras.
+  - Font Awesome: biblioteca contendo ícones e emojis.

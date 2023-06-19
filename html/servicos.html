@@ -99,49 +99,61 @@
           </div>
         </section>
 
-  <div class="body-form">
-    <div class="container-form mt-5">
-      <h2>Solicite seu orçamento</h2>
-      <form>
-          <div class="form-group">
-              <label for="nome">Nome</label>
-              <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+        <div class="body-form">
+          <div class="container-form mt-5">
+              <h2>Solicite seu orçamento</h2>
+              <form>
+                  <div class="form-group">
+                      <label for="nome">Nome</label>
+                      <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+                  </div>
+                  <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                  </div>
+                  <div class="form-group">
+                      <label for="telefone">Telefone</label>
+                      <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone">
+                  </div>
+                  <div class="form-group">
+                      <label for="empresa">Empresa</label>
+                      <input type="text" class="form-control" id="empresa" placeholder="Digite o nome da empresa">
+                  </div>
+                  <div class="form-group">
+                      <label class="servicos" for="servicos">Escolha o serviço</label>
+                      <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="hardware" id="servico-hardware">
+                          <label class="form-check-label" for="servico-hardware">
+                              Hardware
+                          </label>
+                      </div>
+                      <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="software" id="servico-software">
+                          <label class="form-check-label" for="servico-software">
+                              Software
+                          </label>
+                      </div>
+                      <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="redes" id="servico-redes">
+                          <label class="form-check-label" for="servico-redes">
+                              Redes
+                          </label>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <label for="comentarios">Informações adicionais</label>
+                      <textarea class="form-control" id="comentarios" rows="4" placeholder="Digite quaisquer comentários adicionais"></textarea>
+                  </div>
+                  <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="termos">
+                      <label class="form-check-label" for="termos">Sim, concordo com as políticas de privacidade e termos de condições</label>
+                  </div>
+                  <div class="center-button">
+                      <button type="submit" class="btn btn-primary">Solicitar Orçamento</button>
+                  </div>
+              </form>
           </div>
-          <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" class="form-control" id="email" placeholder="Digite seu email">
-          </div>
-          <div class="form-group">
-              <label for="telefone">Telefone</label>
-              <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone">
-          </div>
-          <div class="form-group">
-              <label for="empresa">Empresa</label>
-              <input type="text" class="form-control" id="empresa" placeholder="Digite o nome da empresa">
-          </div>
-          <div class="form-group">
-              <label for="servicos">Tipo de serviço</label>
-              <select class="form-control" id="servicos">
-                  <option selected disabled>Selecione uma opção</option>
-                  <option>Hardware</option>
-                  <option>Software</option>
-                  <option>Redes</option>
-              </select>
-          </div>
-          <div class="form-group">
-              <label for="comentarios">Informações adicionais</label>
-              <textarea class="form-control" id="comentarios" rows="4" placeholder="Digite quaisquer comentários adicionais"></textarea>
-          </div>
-          <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="termos">
-              <label class="form-check-label" for="termos">Sim, concordo com as políticas de privacidade e termos de condições</label>
-          </div>
-          <div class="center-button">
-          <button type="submit" class="btn btn-primary">Solicitar Orçamento</button>
-        </div>
-      </form>
-  </div>
-</div>
+      </div>
     
 
     <!-- Area do rodapé -->

@@ -13,7 +13,7 @@ footer p, .col{
 }
   
   .bg-azul {
-    background-color: #048AFF;
+    background: linear-gradient(to left, #c706c7, #048AFF);
   }
 
   .nav-link {

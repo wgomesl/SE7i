@@ -35,5 +35,7 @@ Por último, têm uma seção para apresentar toda a equipe que realizou TCC, e 
 - <b>Javascript:</b> linguagem de programação utilizada para dar interatividade ao site;
   - <b>OwlCarousel:</b> plugin para criar carousel.
   - <b>Typed.js:</b> plugin para adicionar animação aos textos.
+  - <b>Toastr.js:</b> plugin para alertas interativos.
   - <b>VLibras:</b> plugin de acessibilidade em libras.
   - <b>Font Awesome:</b> biblioteca contendo ícones e emojis.
+  - <b>JQuery InputMask:</b> plugin para adicionar máscaras ao formulário.

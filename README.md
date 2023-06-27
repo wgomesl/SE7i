@@ -4,8 +4,10 @@ Projeto referente a empresa SE7I construída durante o TCC de suporte em TI.
 ## 💻 Link para acessar o site
 > https://se-7i.vercel.app
 
+<img alt="SE7I" src="img/se7i.png">
+
 ### 🏠 Página principal
->Na página inicial têm de destaque um carousel de imagens, com um texto chamativo para nossos serviços.</br>
+>Na página inicial têm em destaque um carousel de imagens, com um texto chamativo para nossos serviços.</br>
 Ao descer a página, há uma seção que apresenta nossos serviços e que possui um link para a página de serviços.</br>
 Em seguida há um efeito parallax com uma imagem e um slogan com efeito do plugin typed.js.</br>
 Por último foi adicionada uma seção para destacar depoimentos de clientes que utilizaram nossos serviços.

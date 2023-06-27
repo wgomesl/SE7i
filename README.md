@@ -39,3 +39,4 @@ Por último, têm uma seção para apresentar toda a equipe que realizou TCC, e 
   - <b>VLibras:</b> plugin de acessibilidade em libras.
   - <b>Font Awesome:</b> biblioteca contendo ícones e emojis.
   - <b>JQuery InputMask:</b> plugin para adicionar máscaras ao formulário.
+- <b>Vercel:</b> plataforma utilizada para hospedar o site.

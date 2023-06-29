@@ -32,7 +32,7 @@ Por último, têm uma seção para apresentar toda a equipe que realizou TCC, e 
 ## 🚀 Tecnologias e ferramentas utilizadas
 - <b>HTML5:</b> linguagem de marcação de texto utilizada para estruturar o site;
 - <b>CSS3:</b> linguagem utilizada para estilização de elementos;
-- <b>Bootstrap:</b> biblioteca utilizada para facilitar na construção do site, como: formulários, cards, barra de navegação, rodapé, etc;
+- <b>Bootstrap:</b> Framework utilizada para facilitar na construção do site, como: formulários, cards, barra de navegação, rodapé, etc;
 - <b>JQuery:</b> biblioteca javascript que simplifica a sintaxe e disponibiliza outros recursos;
 - <b>Javascript:</b> linguagem de programação utilizada para dar interatividade ao site;
   - <b>OwlCarousel:</b> plugin para criar carousel.

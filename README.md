@@ -36,9 +36,9 @@ Por último, têm uma seção para apresentar toda a equipe que realizou TCC, e 
 - <b>JQuery:</b> biblioteca javascript que simplifica a sintaxe e disponibiliza outros recursos;
 - <b>Javascript:</b> linguagem de programação utilizada para dar interatividade ao site;
   - <b>OwlCarousel:</b> plugin para criar carousel.
-  - <b>Typed.js:</b> plugin para adicionar animação aos textos.
-  - <b>Toastr.js:</b> plugin para alertas interativos.
+  - <b>Typed.js:</b> biblioteca para adicionar animação aos textos.
+  - <b>Toastr.js:</b> biblioteca para alertas interativos.
   - <b>VLibras:</b> plugin de acessibilidade em libras.
-  - <b>Font Awesome:</b> biblioteca contendo ícones e emojis.
+  - <b>Font Awesome:</b> biblioteca que disponibiliza ícones.
   - <b>JQuery InputMask:</b> plugin para adicionar máscaras ao formulário.
 - <b>Vercel:</b> plataforma utilizada para hospedar o site.

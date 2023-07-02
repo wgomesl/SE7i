@@ -3,15 +3,15 @@ $(document).ready(function(){
     var owl =  $(".owl-carousel");
 
     owl.owlCarousel({
-        autoplay: true,
+        autoplay: false,
         autoplayTimeout: 3000,
         autoplayHoverPause: false,
         items: 1,
-        stagePadding: 20,
+        stagePadding: 10,
         center: true,
-        nav: false,
+        nav: true,
         margin: 10,
-        dots: true,
+        dots: false,
         loop: true,
         responsive: {
             0: { items: 1 },

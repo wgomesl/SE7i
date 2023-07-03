@@ -238,6 +238,11 @@ footer p, .col{
   top: 42%;
   transform: translateY(-42%);
 }
+
+.owl-prev:hover, .owl-next:hover{
+  background: rgb(0, 0, 0) !important;
+}
+
 .owl-theme .owl-nav [class*=owl-] {
   color: #d4d4d4 !important;
   font-size: 3.0rem !important;
